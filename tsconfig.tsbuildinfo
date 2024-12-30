@@ -1,0 +1,1 @@
+{"root":["./src/config.ts","./src/index.ts","./src/controllers/urlcontroller.ts","./src/models/urlmodel.ts","./src/routes/urlroutes.ts"],"version":"5.7.2"}
