@@ -3,4 +3,4 @@ config();
 
 export const PORT = process.env.PORT || 3000;
 export const MONGO_URL = process.env.MONGO_URL as string;
-export const BASE_URL = `http://localhost:${PORT}`;
+export const BASE_URL = `https://theshortlinkapi.vercel.app`;
