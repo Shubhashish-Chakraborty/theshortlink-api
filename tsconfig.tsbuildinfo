@@ -1,1 +1,1 @@
-{"root":["./src/config.ts","./src/index.ts","./src/controllers/urlcontroller.ts","./src/models/urlmodel.ts","./src/routes/urlroutes.ts"],"version":"5.7.2"}
+{"root":["./src/config.ts","./src/index.ts","./src/controllers/authcontroller.ts","./src/controllers/urlcontroller.ts","./src/models/urlmodel.ts","./src/models/usermodel.ts","./src/routes/authroutes.ts","./src/routes/urlroutes.ts"],"version":"5.7.2"}

@@ -4,6 +4,7 @@ const UrlSchema = new Schema({
     longUrl: { type: String, required: true },
     shortUrl: { type: String, required: true, unique: true },
     urlCode: { type: String, required: true, unique: true },
+    userId: {type: Types.ObjectId, required:true},
     date: { type: Date, default: Date.now }
 });
 

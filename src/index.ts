@@ -8,6 +8,7 @@ import cors from 'cors';
 
 import { PORT , MONGO_URL } from './config';
 import { urlRouter } from './routes/urlRoutes';
+import { authRouter } from './routes/authRoutes';
 
 const app = express();
 
@@ -16,10 +17,8 @@ app.use(express.json());
 app.use(cors());
 
 app.use("/" , urlRouter);
+app.use("/auth" , authRouter);
 
-// app.get('/', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'public', 'index.html'));
-// });
 
 app.get('/' , (req , res) => {
     res.send("API is UP!!")
